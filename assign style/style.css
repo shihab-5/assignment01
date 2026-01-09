@@ -1,0 +1,25 @@
+#font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 120px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+.baton{
+ padding: 12px 15px;
+ background-color: rgba(0, 100, 0, 0.771);
+ font-size: 16px;
+ color: white;
+ border-radius: 5px;
+ border-style: none;
+}

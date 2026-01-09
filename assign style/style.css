@@ -4,6 +4,9 @@
   font-weight: <weight>;
   font-style: normal;
 }
+*{
+    margin: 0px;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -17,9 +20,27 @@ nav ul{
 }
 .baton{
  padding: 12px 15px;
- background-color: rgba(0, 100, 0, 0.771);
+ background-color: rgba(0, 100, 0, 0.664);
  font-size: 16px;
  color: white;
  border-radius: 5px;
  border-style: none;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 400px;
+    /* background-color: aquamarine; */
+    background-image: url(../assets/hero-bg.png);
+    margin: 10px 0px;
+    gap: 30px;
+}
+.banner div{
+    display: flex;
+gap: 15px;
+}
+.banner p{
+    padding: 0px 70px;
+    color:rgba(255, 255, 255, 0.647);
 }
